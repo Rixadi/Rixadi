@@ -1,92 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="100%" height="100%">
   <!-- Fundo Principal -->
   <rect width="100%" height="100%" fill="#0d1117" rx="10"/>
   
   <!-- Borda do Terminal -->
-  <rect x="10" y="10" width="880" height="580" fill="none" stroke="#39d353" stroke-width="2" rx="8"/>
+  <rect x="10" y="10" width="980" height="600" fill="none" stroke="#39d353" stroke-width="2" rx="8"/>
 
   <!-- Barra de Título do Terminal -->
-  <rect x="20" y="20" width="860" height="30" fill="#21262d" rx="5"/>
+  <rect x="20" y="20" width="960" height="30" fill="#21262d" rx="5"/>
   <circle cx="40" cy="35" r="6" fill="#ff5f56"/>
   <circle cx="60" cy="35" r="6" fill="#ffbd2e"/>
   <circle cx="80" cy="35" r="6" fill="#27c93f"/>
   <text x="110" y="39" font-family="'Courier New', monospace" font-size="12" fill="#c9d1d9">[pwed404@archlinux ~]$ fastfetch --win95</text>
 
   <!-- ================= BARCO ASCII (ESQUERDA) ================= -->
-  <g transform="translate(30, 80)">
-    <text x="0" y="0" font-family="'Courier New', monospace" font-size="11" fill="#c9d1d9">
-      <tspan x="0" dy="0">                 _____|\</tspan>
-      <tspan x="0" dy="14">              _.--| PWN |:</tspan>
-      <tspan x="0" dy="14">             &lt;____|.----||</tspan>
-      <tspan x="0" dy="14">                    .---''---,</tspan>
-      <tspan x="0" dy="14">    The               ;..__..'    _...</tspan>
-      <tspan x="0" dy="14">     Redteam        ,'/  ;|/..--''    \</tspan>
-      <tspan x="0" dy="14">      Boat        ,'_/.-/':            :</tspan>
-      <tspan x="0" dy="14">            _..-'''/  /  |  \    \   _|/|</tspan>
-      <tspan x="0" dy="14">           \      /-./_ \;   \    \,;'   \</tspan>
-      <tspan x="0" dy="14">           ,\    / \:  `:\    \   //    `:`.</tspan>
-      <tspan x="0" dy="14">         ,'  \  /-._;   | :    : ::    ,.   .</tspan>
-      <tspan x="0" dy="14">       ,'     ::   /`-._| |    | || ' :  `.`.)</tspan>
-      <tspan x="0" dy="14">    _,'       |;._:: |  | |    | `|   :    `'</tspan>
-      <tspan x="0" dy="14">  ,'   `.     /   |`-:_ ; |    |  |  : \</tspan>
-      <tspan x="0" dy="14">  `--.   )   /|-._:    :          |   \ \</tspan>
-      <tspan x="0" dy="14">     /  /   :_|   ;`-._;   __..--';    : :</tspan>
-      <tspan x="0" dy="14">    /  (    ;|;-./_  _/.-:'o |   /     ' |</tspan>
-      <tspan x="0" dy="14">   /  , \._/_/_./--''/_|:|___|_,'        |</tspan>
-      <tspan x="0" dy="14">  :  /   `'-'--'----'---------'          |</tspan>
-      <tspan x="0" dy="14">  | :     O ._O   O_. O ._O   O_.      ; ;</tspan>
-      <tspan x="0" dy="14">  : `.      //    //    //    //     ,' /</tspan>
-      <tspan x="0" dy="14">~~~`.______//____//____//____//_______,'~</tspan>
-      <tspan x="0" dy="14">          //    //~   //    //</tspan>
-      <tspan x="0" dy="14">   ~~   _//   _//   _// ~ _//     ~</tspan>
-      <tspan x="0" dy="14"> ~     / /   / /   / /   / /  ~      ~~</tspan>
-      <tspan x="0" dy="14">      ~~~   ~~~   ~~~   ~~~</tspan>
-    </text>
+  <!-- Usando posicionamento absoluto para garantir que não quebre -->
+  <g font-family="'Courier New', monospace" font-size="12" fill="#c9d1d9" xml:space="preserve">
+    <text x="30" y="80">                 _____|\</text>
+    <text x="30" y="94">              _.--| PWN |:</text>
+    <text x="30" y="108">             &lt;____|.----||</text>
+    <text x="30" y="122">                    .---''---,</text>
+    <text x="30" y="136">    The               ;..__..'    _...</text>
+    <text x="30" y="150">     Redteam        ,'/  ;|/..--''    \</text>
+    <text x="30" y="164">      Boat        ,'_/.-/':            :</text>
+    <text x="30" y="178">            _..-'''/  /  |  \    \   _|/|</text>
+    <text x="30" y="192">           \      /-./_ \;   \    \,;'   \</text>
+    <text x="30" y="206">           ,\    / \:  `:\    \   //    `:`.</text>
+    <text x="30" y="220">         ,'  \  /-._;   | :    : ::    ,.   .</text>
+    <text x="30" y="234">       ,'     ::   /`-._| |    | || ' :  `.`.)</text>
+    <text x="30" y="248">    _,'       |;._:: |  | |    | `|   :    `'</text>
+    <text x="30" y="262">  ,'   `.     /   |`-:_ ; |    |  |  : \</text>
+    <text x="30" y="276">  `--.   )   /|-._:    :          |   \ \</text>
+    <text x="30" y="290">     /  /   :_|   ;`-._;   __..--';    : :</text>
+    <text x="30" y="304">    /  (    ;|;-./_  _/.-:'o |   /     ' |</text>
+    <text x="30" y="318">   /  , \._/_/_./--''/_|:|___|_,'        |</text>
+    <text x="30" y="332">  :  /   `'-'--'----'---------'          |</text>
+    <text x="30" y="346">  | :     O ._O   O_. O ._O   O_.      ; ;</text>
+    <text x="30" y="360">  : `.      //    //    //    //     ,' /</text>
+    <text x="30" y="374">~~~`.______//____//____//____//_______,'~</text>
+    <text x="30" y="388">          //    //~   //    //</text>
+    <text x="30" y="402">   ~~   _//   _//   _// ~ _//     ~</text>
+    <text x="30" y="416"> ~     / /   / /   / /   / /  ~      ~~</text>
+    <text x="30" y="430">      ~~~   ~~~   ~~~   ~~~</text>
     
     <!-- Detalhes extras abaixo do barco -->
-    <text x="0" y="420" font-family="'Courier New', monospace" font-size="14" fill="#39d353" font-weight="bold">Karate // Redteam // Pwed404</text>
+    <text x="30" y="470" font-size="14" fill="#39d353" font-weight="bold">Karate // Redteam // Pwed404</text>
   </g>
 
   <!-- ================= INFORMAÇÕES (DIREITA) ================= -->
-  <g transform="translate(430, 80)">
-    <text x="0" y="0" font-family="'Courier New', monospace" font-size="12" fill="#c9d1d9">
-      <tspan x="0" dy="0" fill="#58a6ff" font-weight="bold">pwed404@archlinux</tspan>
-      <tspan x="0" dy="18" fill="#58a6ff">-------------------</tspan>
-      
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">OS:</tspan> Arch Linux x86_64 / Windows 95
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">Host:</tspan> Pwed404 - RedTeam/Karate
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">Kernel:</tspan> 6.8.9-arch1-1 / 4.00.950
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">Uptime:</tspan> 42 years, 13 days, 7 hours
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">Packages:</tspan> 1337 (pacman) + 69 (win95)
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">Shell:</tspan> zsh 5.9 / command.com
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">Resolution:</tspan> 800x600 (16-bit color)
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">DE:</tspan> XFCE 4.20 / Windows 95 Explorer
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">WM:</tspan> Xfwm4 (X11) / Stacker
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">Theme:</tspan> Windows 95 [Classic]
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">Icons:</tspan> Windows 95 Icons
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">Terminal:</tspan> xfce4-terminal 1.2.0 / cmd.exe
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">CPU:</tspan> Intel Pentium 133 MHz (1) @ 133 MHz
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">GPU:</tspan> S3 Trio64V+ (2MB VRAM)
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">Memory:</tspan> 8 MB / 16 MB (50%)
-      <tspan x="0" dy="18" fill="#39d353" font-weight="bold">Locale:</tspan> en_US.CP437
-    </text>
-
-    <!-- Bloco de Cores -->
-    <g transform="translate(0, 360)">
-      <rect x="0" y="0" width="25" height="15" fill="#555555" stroke="#000" stroke-width="1"/>
-      <rect x="25" y="0" width="25" height="15" fill="#f85149" stroke="#000" stroke-width="1"/>
-      <rect x="50" y="0" width="25" height="15" fill="#39d353" stroke="#000" stroke-width="1"/>
-      <rect x="75" y="0" width="25" height="15" fill="#d29922" stroke="#000" stroke-width="1"/>
-      <rect x="100" y="0" width="25" height="15" fill="#58a6ff" stroke="#000" stroke-width="1"/>
-      <rect x="125" y="0" width="25" height="15" fill="#bc8cff" stroke="#000" stroke-width="1"/>
-      <rect x="150" y="0" width="25" height="15" fill="#00ffff" stroke="#000" stroke-width="1"/>
-      <rect x="175" y="0" width="25" height="15" fill="#ffffff" stroke="#000" stroke-width="1"/>
-    </g>
+  <g font-family="'Courier New', monospace" font-size="13" fill="#c9d1d9" xml:space="preserve">
+    <text x="520" y="80" fill="#58a6ff" font-weight="bold">pwed404@archlinux</text>
+    <text x="520" y="96" fill="#58a6ff">-------------------</text>
+    
+    <text x="520" y="118" fill="#39d353" font-weight="bold">OS:</text> <tspan fill="#c9d1d9">Arch Linux x86_64 / Windows 95</tspan>
+    <text x="520" y="136" fill="#39d353" font-weight="bold">Host:</text> <tspan fill="#c9d1d9">Pwed404 - RedTeam/Karate</tspan>
+    <text x="520" y="154" fill="#39d353" font-weight="bold">Kernel:</text> <tspan fill="#c9d1d9">6.8.9-arch1-1 / 4.00.950</tspan>
+    <text x="520" y="172" fill="#39d353" font-weight="bold">Uptime:</text> <tspan fill="#c9d1d9">42 years, 13 days, 7 hours</tspan>
+    <text x="520" y="190" fill="#39d353" font-weight="bold">Packages:</text> <tspan fill="#c9d1d9">1337 (pacman) + 69 (win95)</tspan>
+    <text x="520" y="208" fill="#39d353" font-weight="bold">Shell:</text> <tspan fill="#c9d1d9">zsh 5.9 / command.com</tspan>
+    <text x="520" y="226" fill="#39d353" font-weight="bold">Resolution:</text> <tspan fill="#c9d1d9">800x600 (16-bit color)</tspan>
+    <text x="520" y="244" fill="#39d353" font-weight="bold">DE:</text> <tspan fill="#c9d1d9">XFCE 4.20 / Windows 95 Explorer</tspan>
+    <text x="520" y="262" fill="#39d353" font-weight="bold">WM:</text> <tspan fill="#c9d1d9">Xfwm4 (X11) / Stacker</tspan>
+    <text x="520" y="280" fill="#39d353" font-weight="bold">Theme:</text> <tspan fill="#c9d1d9">Windows 95 [Classic]</tspan>
+    <text x="520" y="298" fill="#39d353" font-weight="bold">Icons:</text> <tspan fill="#c9d1d9">Windows 95 Icons</tspan>
+    <text x="520" y="316" fill="#39d353" font-weight="bold">Terminal:</text> <tspan fill="#c9d1d9">xfce4-terminal 1.2.0 / cmd.exe</tspan>
+    <text x="520" y="334" fill="#39d353" font-weight="bold">CPU:</text> <tspan fill="#c9d1d9">Intel Pentium 133 MHz (1) @ 133 MHz</tspan>
+    <text x="520" y="352" fill="#39d353" font-weight="bold">GPU:</text> <tspan fill="#c9d1d9">S3 Trio64V+ (2MB VRAM)</tspan>
+    <text x="520" y="370" fill="#39d353" font-weight="bold">Memory:</text> <tspan fill="#c9d1d9">8 MB / 16 MB (50%)</tspan>
+    <text x="520" y="388" fill="#39d353" font-weight="bold">Locale:</text> <tspan fill="#c9d1d9">en_US.CP437</tspan>
   </g>
 
-  <!-- ================= RODAPÉ ================= -->
-  <g transform="translate(30, 560)">
-    <text x="0" y="0" font-family="'Courier New', monospace" font-size="16" fill="#f85149" font-weight="bold">//Laughing at your security since 2011!</text>
+  <!-- Bloco de Cores (Color Palette) -->
+  <g transform="translate(520, 420)">
+    <rect x="0" y="0" width="25" height="15" fill="#555555" stroke="#000" stroke-width="1"/>
+    <rect x="25" y="0" width="25" height="15" fill="#f85149" stroke="#000" stroke-width="1"/>
+    <rect x="50" y="0" width="25" height="15" fill="#39d353" stroke="#000" stroke-width="1"/>
+    <rect x="75" y="0" width="25" height="15" fill="#d29922" stroke="#000" stroke-width="1"/>
+    <rect x="100" y="0" width="25" height="15" fill="#58a6ff" stroke="#000" stroke-width="1"/>
+    <rect x="125" y="0" width="25" height="15" fill="#bc8cff" stroke="#000" stroke-width="1"/>
+    <rect x="150" y="0" width="25" height="15" fill="#00ffff" stroke="#000" stroke-width="1"/>
+    <rect x="175" y="0" width="25" height="15" fill="#ffffff" stroke="#000" stroke-width="1"/>
+  </g>
+
+  <!-- ================= RODAPÉ: FRASE DE EFEITO ================= -->
+  <g transform="translate(30, 570)">
+    <text x="0" y="0" font-family="'Courier New', monospace" font-size="18" fill="#f85149" font-weight="bold">//Laughing at your security since 2011!</text>
   </g>
 
 </svg>
