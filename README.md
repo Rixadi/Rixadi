@@ -1,1 +1,1 @@
-![Pwed404 Banner](banner.svg)
+![](./banner.svg)
