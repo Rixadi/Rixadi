@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="100%" height="100%">
+  <defs>
+    <style>
+      .mono { font-family: 'Courier New', Courier, monospace; }
+      .bg { fill: #0d1117; }
+      .term-bg { fill: #161b22; }
+      .term-header { fill: #21262d; }
+      .btn-red { fill: #ff5f56; }
+      .btn-yellow { fill: #ffbd2e; }
+      .btn-green { fill: #27c93f; }
+      .text-green { fill: #39d353; }
+      .text-white { fill: #c9d1d9; }
+      .text-cyan { fill: #58a6ff; }
+      .text-yellow { fill: #d29922; }
+      .text-red { fill: #f85149; }
+      .text-magenta { fill: #bc8cff; }
+      .text-bold { font-weight: bold; }
+    </style>
+  </defs>
+
+  <!-- Fundo Principal -->
+  <rect width="900" height="520" class="bg" rx="10"/>
+  
+  <!-- Borda do Terminal -->
+  <rect x="10" y="10" width="880" height="500" fill="none" stroke="#39d353" stroke-width="2" rx="8"/>
+
+  <!-- Barra de Título do Terminal -->
+  <rect x="20" y="20" width="860" height="30" class="term-header" rx="5"/>
+  <circle cx="40" cy="35" r="6" class="btn-red"/>
+  <circle cx="60" cy="35" r="6" class="btn-yellow"/>
+  <circle cx="80" cy="35" r="6" class="btn-green"/>
+  <text x="110" y="39" class="mono text-white" font-size="12">[pwed404@archlinux ~]$ fastfetch</text>
+
+  <!-- ================= COLUNA ESQUERDA: BARCO ASCII ================= -->
+  <g transform="translate(30, 80)">
+    <text x="0" y="0" class="mono text-white" font-size="13" xml:space="preserve">
+                      0
+                     _|_
+                    |   |
+                    |___|
+                    |   |
+                    |___|
+                    |   |
+                    |___|
+           _.-.
+         .'     `.
+        /         \
+       |  [pwn]    |
+       |  [404]    |
+       |           |
+       |           |
+       |           |
+       |           |
+       |           |
+       |___________|
+    </text>
+    <!-- Detalhes extras para o barco (opcional) -->
+    <text x="0" y="180" class="mono text-green" font-size="12">Redteam Karate</text>
+  </g>
+
+  <!-- ================= COLUNA DIREITA: FASTFETCH ================= -->
+  <g transform="translate(380, 80)">
+    <!-- Cabeçalho do Fastfetch -->
+    <text x="0" y="0" class="mono text-cyan text-bold" font-size="14">pwed404@archlinux</text>
+    <text x="0" y="18" class="mono text-cyan" font-size="14">-------------------</text>
+    
+    <!-- Linhas de Informação (Fastfetch style) -->
+    <text x="0" y="38" class="mono" font-size="13">
+      <tspan class="text-green text-bold">OS:</tspan> <tspan class="text-white">Arch Linux x86_64</tspan>
+    </text>
+    <text x="0" y="56" class="mono" font-size="13">
+      <tspan class="text-green text-bold">Host:</tspan> <tspan class="text-white">RedTeam (1.0)</tspan>
+    </text>
+    <text x="0" y="74" class="mono" font-size="13">
+      <tspan class="text-green text-bold">Kernel:</tspan> <tspan class="text-white">6.8.9-arch1-1</tspan>
+    </text>
+    <text x="0" y="92" class="mono" font-size="13">
+      <tspan class="text-green text-bold">Uptime:</tspan> <tspan class="text-white">13 hours, 37 mins</tspan>
+    </text>
+    <text x="0" y="110" class="mono" font-size="13">
+      <tspan class="text-green text-bold">Packages:</tspan> <tspan class="text-white">1337 (pacman)</tspan>
+    </text>
+    <text x="0" y="128" class="mono" font-size="13">
+      <tspan class="text-green text-bold">Shell:</tspan> <tspan class="text-white">zsh 5.9</tspan>
+    </text>
+    <text x="0" y="146" class="mono" font-size="13">
+      <tspan class="text-green text-bold">Resolution:</tspan> <tspan class="text-white">1920x1080</tspan>
+    </text>
+    <text x="0" y="164" class="mono" font-size="13">
+      <tspan class="text-green text-bold">DE:</tspan> <tspan class="text-white">i3-gaps</tspan>
+    </text>
+    <text x="0" y="182" class="mono" font-size="13">
+      <tspan class="text-green text-bold">WM:</tspan> <tspan class="text-white">i3 (X11)</tspan>
+    </text>
+    <text x="0" y="200" class="mono" font-size="13">
+      <tspan class="text-green text-bold">Theme:</tspan> <tspan class="text-white">Dracula [GTK2/3]</tspan>
+    </text>
+    <text x="0" y="218" class="mono" font-size="13">
+      <tspan class="text-green text-bold">Icons:</tspan> <tspan class="text-white">Papirus [GTK2/3]</tspan>
+    </text>
+    <text x="0" y="236" class="mono" font-size="13">
+      <tspan class="text-green text-bold">Terminal:</tspan> <tspan class="text-white">alacritty 0.13.2</tspan>
+    </text>
+    <text x="0" y="254" class="mono" font-size="13">
+      <tspan class="text-green text-bold">CPU:</tspan> <tspan class="text-white">Intel i7-9700K (8) @ 4.90 GHz</tspan>
+    </text>
+    <text x="0" y="272" class="mono" font-size="13">
+      <tspan class="text-green text-bold">GPU:</tspan> <tspan class="text-white">NVIDIA RTX 3080</tspan>
+    </text>
+    <text x="0" y="290" class="mono" font-size="13">
+      <tspan class="text-green text-bold">Memory:</tspan> <tspan class="text-white">3.24 GiB / 16.00 GiB (20%)</tspan>
+    </text>
+    <text x="0" y="308" class="mono" font-size="13">
+      <tspan class="text-green text-bold">Disk (/):</tspan> <tspan class="text-white">120.5 GiB / 500.0 GiB (24%)</tspan>
+    </text>
+    <text x="0" y="326" class="mono" font-size="13">
+      <tspan class="text-green text-bold">Local IP (wlan0):</tspan> <tspan class="text-white">192.168.1.42/24</tspan>
+    </text>
+    <text x="0" y="344" class="mono" font-size="13">
+      <tspan class="text-green text-bold">Locale:</tspan> <tspan class="text-white">en_US.UTF-8</tspan>
+    </text>
+
+    <!-- Bloco de Cores (Color Palette) -->
+    <g transform="translate(0, 370)">
+      <rect x="0" y="0" width="25" height="15" fill="#555555" stroke="#000" stroke-width="1"/>
+      <rect x="25" y="0" width="25" height="15" fill="#f85149" stroke="#000" stroke-width="1"/>
+      <rect x="50" y="0" width="25" height="15" fill="#39d353" stroke="#000" stroke-width="1"/>
+      <rect x="75" y="0" width="25" height="15" fill="#d29922" stroke="#000" stroke-width="1"/>
+      <rect x="100" y="0" width="25" height="15" fill="#58a6ff" stroke="#000" stroke-width="1"/>
+      <rect x="125" y="0" width="25" height="15" fill="#bc8cff" stroke="#000" stroke-width="1"/>
+      <rect x="150" y="0" width="25" height="15" fill="#00ffff" stroke="#000" stroke-width="1"/>
+      <rect x="175" y="0" width="25" height="15" fill="#ffffff" stroke="#000" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- ================= RODAPÉ: FRASE DE EFEITO ================= -->
+  <g transform="translate(30, 480)">
+    <text x="0" y="0" class="mono text-red text-bold" font-size="18">//Laughing at your security since 2011!</text>
+  </g>
+
+</svg>
